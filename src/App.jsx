@@ -1,10 +1,12 @@
+import Banner from "./Components/Banner"
 import Navbar from "./Components/Navbar"
 
 function App() {
 
   return (
-    <div>
+    <div className='lg:max-w-[1280px] mx-auto'>
       <Navbar></Navbar>
+      <Banner></Banner>
     </div>
   )
 }
