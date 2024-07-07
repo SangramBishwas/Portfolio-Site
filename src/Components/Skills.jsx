@@ -10,7 +10,7 @@ const Skills = () => {
     return (
         <div className="py-10 mx-5 md:mx-auto">
             <h2 className="text-center text-white text-xl my-10 md:text-3xl font-bold lg:text-4xl">My Tech Skill</h2>
-            <h3 className="text-white text-xl my-5 font-bold lg:text-3xl" data-aos="fade-up">
+            <h3 className="primary-color text-xl my-5 font-bold lg:text-3xl" data-aos="fade-up">
                 Language_
             </h3>
             <div className="border border-gray-600 text-gray-400 flex justify-evenly h-auto md:h-[150px] place-items-center" data-aos="fade-up" data-aos-duration="1000">              
@@ -31,7 +31,7 @@ const Skills = () => {
                     <p className="md:mt-2">MongoDB</p>
                 </div>
             </div>
-            <h3 className="text-white text-xl my-5 font-bold lg:text-3xl" data-aos="fade-up">
+            <h3 className="primary-color text-xl my-5 font-bold lg:text-3xl" data-aos="fade-up">
                 Technology_
             </h3>
             <div className="border border-gray-600 text-gray-400 flex justify-evenly h-auto md:h-[150px] place-items-center" data-aos="fade-up" data-aos-duration="1000">              
@@ -41,15 +41,15 @@ const Skills = () => {
                 </div>
                 <div className="flex flex-col items-center m-4 w-[40px] md:w-[100px]">
                     <img className="w-[50px] md:w-[100px]" src={react} alt="react" />
-                    <p className="md:mt-2">React JS</p>
+                    <p className="md:mt-2">React</p>
                 </div>
                 <div className="flex flex-col items-center m-4 w-[40px] md:w-[100px]">
                     <img className="w-[40px] md:w-[100px]" src={node} alt="JS" />
-                    <p className="md:mt-2">Node JS</p>
+                    <p className="md:mt-2">Node</p>
                 </div>
                 <div className="flex flex-col items-center m-4 w-[40px] md:w-[100px]">
                     <img className="w-[40px] md:w-[100px] rounded-xl" src={express} alt="express" />
-                    <p className="md:mt-2">Express JS</p>
+                    <p className="md:mt-2">Express</p>
                 </div>
             </div>
         </div>

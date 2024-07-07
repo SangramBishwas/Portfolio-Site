@@ -9,6 +9,7 @@ const Navbar = () => {
     return (
         <div className='bg-black text-gray-400 h-[50px] md:h-[75px] flex justify-between items-center'>
             <img className="h-[50px] md:h-[75px]" src={logo} alt="webLogo" />
+            <h3 className='primary-color font-bold text-2xl md:text-3xl'>Sangram Bishwas</h3>
             <ul className='hidden md:text-white md:px-5 md:flex'>
                 <li className='p-5 font-bold primary-color'><a href="#">Home</a></li>
                 <li className='p-5'><a href="#">Blogs</a></li>

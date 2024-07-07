@@ -25,7 +25,7 @@ const Banner = () => {
                 <p className="my-6 text-lg md:text-xl">
                     My name is Sangram Bishwas. I am a web developer of Bangladesh. I have crazy vision about software development and devOps.
                 </p>
-                <div className="my-8 flex gap-5">
+                <div className="my-10 flex gap-5">
                     <button className="px-6 py-3 bg-gradient-to-br from-orange-400 to-pink-500 text-white text-xl font-bold rounded-xl">
                         <a href="https://drive.google.com/file/d/11zktNY6DoTo7Y-7kba0HFs13A1QmJ1zx/view" target="_blank">Resume</a>
                     </button>

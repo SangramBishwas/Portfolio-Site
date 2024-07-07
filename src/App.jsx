@@ -4,6 +4,9 @@ import Navbar from "./Components/Navbar"
 import Skills from "./Components/Skills"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import About from "./Components/About";
+import Project from "./Components/Project";
+import Footer from "./Components/Footer";
 
 function App() {
   useEffect(() => {
@@ -25,7 +28,10 @@ function App() {
     <div className='lg:max-w-[1280px] mx-auto'>
       <Navbar></Navbar>
       <Banner></Banner>
+      <About></About>
       <Skills></Skills>
+      <Project></Project>
+      <Footer></Footer>
     </div>
   )
 }
