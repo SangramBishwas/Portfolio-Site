@@ -9,7 +9,7 @@ import express from "../assets/express-logo.png"
 const Skills = () => {
     return (
         <div className="py-10 mx-5 md:mx-auto">
-            <h2 className="text-center text-white text-xl my-10 md:text-3xl font-bold lg:text-4xl">My Tech Skill</h2>
+            <h2 className="text-center text-white text-xl my-10 md:text-3xl font-bold lg:text-4xl" data-aos="fade-up" data-aos-duration="1000">My Tech Skill</h2>
             <h3 className="primary-color text-xl my-5 font-bold lg:text-3xl" data-aos="fade-up">
                 Language_
             </h3>
