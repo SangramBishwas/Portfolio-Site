@@ -8,6 +8,7 @@ import About from "./Sections/About";
 import Project from "./Sections/Project";
 import Footer from "./Sections/Footer";
 import EducationAndExprience from "./Sections/Edu&Exp";
+import Conctact from "./Sections/Conctact";
 
 function App() {
   useEffect(() => {
@@ -33,6 +34,7 @@ function App() {
       <Skills></Skills>
       <Project></Project>
       <EducationAndExprience />
+      <Conctact />
       <Footer></Footer>
     </div>
   )
