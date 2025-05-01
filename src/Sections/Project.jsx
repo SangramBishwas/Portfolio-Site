@@ -4,7 +4,7 @@ import project3 from "../assets/crafthahven-homepage.jpg";
 const Project = () => {
     return (
         <div className="mx-auto py-10 bg-black" id="work">
-            <h2 className="text-center text-white text-xl my-5 md:text-3xl font-bold lg:text-4xl" data-aos="fade-up" data-aos-duration="1000">Projects</h2>
+            <h2 className="text-center text-white text-xl my-5 md:text-3xl font-bold" data-aos="fade-up" data-aos-duration="1000">Projects</h2>
             <p className="text-center text-white" data-aos="fade-up" data-aos-duration="1000">There`s my some projects that I`ve made. If you`ve time, you can check out.</p>
             <div className="py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5" data-aos="fade-up" data-aos-duration="1000">
                 <div className="col-span-1 transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative">

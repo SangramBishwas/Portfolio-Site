@@ -1,12 +1,13 @@
 import { useEffect } from "react";
-import Banner from "./Components/Banner"
-import Navbar from "./Components/Navbar"
-import Skills from "./Components/Skills"
+import Banner from "./Sections/Banner"
+import Navbar from "./Sections/Navbar"
+import Skills from "./Sections/Skills"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import About from "./Components/About";
-import Project from "./Components/Project";
-import Footer from "./Components/Footer";
+import About from "./Sections/About";
+import Project from "./Sections/Project";
+import Footer from "./Sections/Footer";
+import EducationAndExprience from "./Sections/Edu&Exp";
 
 function App() {
   useEffect(() => {
@@ -31,6 +32,7 @@ function App() {
       <About></About>
       <Skills></Skills>
       <Project></Project>
+      <EducationAndExprience />
       <Footer></Footer>
     </div>
   )
