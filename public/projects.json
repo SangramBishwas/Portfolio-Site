@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "name": "As Mart",
+    "images": [
+      "https://i.ibb.co.com/23LVdM8D/project-1-1.jpg",
+      "https://i.ibb.co.com/0jq23c5y/project-1-2.jpg",
+      "https://i.ibb.co.com/rR94RRXd/project-1-3.jpg"
+    ],
+    "description": "AsMart is an online marketplace based in Bangladesh, specializing in the buying and selling of second-hand products. The platform offers a diverse range of items, including books, electronics, clothing, and accessories, catering to budget-conscious consumers seeking quality pre-owned goods.",
+    "features": [
+      "Product Listings",
+      "Filtering Products",
+      "User Testimonials",
+      "Trust & Safety",
+      "Support & Accessibility"
+    ],
+    "github": "https://github.com/SangramBishwas/b4-assignment-6",
+    "live": "https://asmart-project.vercel.app"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Website",
+    "images": [
+      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-photos%2Fproject-management&psig=AOvVaw3-CsupjZ4AaaBRnlOYmLO0&ust=1746193156944000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOCnjcmygo0DFQAAAAAdAAAAABAJ"
+    ],
+    "description": "A personal portfolio website showcasing my projects, skills, and contact details. Built using Next.js and Tailwind CSS.",
+    "features": [
+      "Product Listings",
+      "Filtering Products",
+      "User Testimonials",
+      "Trust & Safety",
+      "Support & Accessibility"
+    ],
+    "github": "https://github.com/yourusername/portfolio",
+    "live": "https://yourportfolio.vercel.app"
+  },
+  {
+    "id": 3,
+    "name": "Task Manager App",
+    "images": [
+      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-photos%2Fproject-management&psig=AOvVaw3-CsupjZ4AaaBRnlOYmLO0&ust=1746193156944000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOCnjcmygo0DFQAAAAAdAAAAABAR"
+    ],
+    "description": "A full-stack task management tool for teams to collaborate and track progress. Built with MERN stack.",
+    "features": [
+      "Product Listings",
+      "Filtering Products",
+      "User Testimonials",
+      "Trust & Safety",
+      "Support & Accessibility"
+    ],
+    "github": "https://github.com/yourusername/task-manager",
+    "live": "https://task-manager-app.vercel.app"
+  }
+]
