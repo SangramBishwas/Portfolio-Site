@@ -12,9 +12,9 @@ const Banner = () => {
                         sequence={[
                             'Web Developer',
                             1000,
-                            'Frontend Developer',
+                            'Mernstack Developer',
                             1000,
-                            'React Developer',
+                            'Fullstack Developer',
                             1000
                         ]}
                         wrapper="span"

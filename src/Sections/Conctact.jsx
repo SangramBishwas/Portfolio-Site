@@ -32,6 +32,7 @@ const Conctact = () => {
           </div>
           <div className="text-center">
             <a
+            href="https://wa.me/+8801704235815"
               className="hover:underline cursor-pointer text-blue-500 text-sm"
               target="_blank"
             >

@@ -1,7 +1,7 @@
 import logo from "../assets/favcon-logo.jpg"
 const Footer = () => {
     return (
-        <div className="py-1">
+        <div className="">
             <footer className="footer bg-neutral text-neutral-content items-center p-4">
                 <aside className="grid-flow-col items-center">
                 <img className="h-[50px] md:h-[50px]" src={logo} alt="webLogo" />

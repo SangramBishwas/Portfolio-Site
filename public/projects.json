@@ -22,34 +22,38 @@
     "id": 2,
     "name": "Portfolio Website",
     "images": [
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-photos%2Fproject-management&psig=AOvVaw3-CsupjZ4AaaBRnlOYmLO0&ust=1746193156944000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOCnjcmygo0DFQAAAAAdAAAAABAJ"
+      "https://i.ibb.co.com/4ZMqp1qk/project-3-1.jpg",
+      "https://i.ibb.co.com/BVqzvYhf/project-3-2.jpg",
+      "https://i.ibb.co.com/8LSM7cFT/project-3-3.jpg"
     ],
-    "description": "A personal portfolio website showcasing my projects, skills, and contact details. Built using Next.js and Tailwind CSS.",
+    "description": "Craft Haven is a dynamic marketplace for handcrafted goods. Users can register as buyers or sellers to explore or offer unique, creative items. The platform includes role-based dashboards: sellers can list and manage crafts, buyers can view and purchase products, and admins can manage users and reported listings. It uses Firebase for authentication, Firestore for data storage, and features protected routes, category filtering, and responsive design.",
     "features": [
-      "Product Listings",
-      "Filtering Products",
-      "User Testimonials",
-      "Trust & Safety",
-      "Support & Accessibility"
+      "Product Listings by Category",
+      "Customazation",
+      "User Authentication",
+      "Seller Dashboard",
+      "Role-Based Access"
+      
     ],
-    "github": "https://github.com/yourusername/portfolio",
-    "live": "https://yourportfolio.vercel.app"
+    "github": "https://github.com/SangramBishwas/craft-haven-client",
+    "live": "https://guileless-paletas-0c0aff.netlify.app/"
   },
   {
     "id": 3,
-    "name": "Task Manager App",
+    "name": "Volunteer Vista",
     "images": [
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-photos%2Fproject-management&psig=AOvVaw3-CsupjZ4AaaBRnlOYmLO0&ust=1746193156944000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOCnjcmygo0DFQAAAAAdAAAAABAR"
+      "https://i.ibb.co.com/MxHW9Gjc/project-2-1.jpg",
+      "https://i.ibb.co.com/S751QF9n/project-2-2.jpg",
+      "https://i.ibb.co.com/fYm5zFzB/project-2-3.jpg"
     ],
-    "description": "A full-stack task management tool for teams to collaborate and track progress. Built with MERN stack.",
+    "description": "VolunteerVista is a web application designed to connect volunteers with organizations in need of assistance. The platform facilitates the discovery and participation in various volunteering opportunities, aiming to foster community engagement and support.",
     "features": [
-      "Product Listings",
-      "Filtering Products",
-      "User Testimonials",
-      "Trust & Safety",
-      "Support & Accessibility"
+      "Volunteer Opportunities",
+      "User Authentication",
+      "Responsive Design",
+      "Interactive Interface"
     ],
-    "github": "https://github.com/yourusername/task-manager",
-    "live": "https://task-manager-app.vercel.app"
+    "github": "https://github.com/SangramBishwas/volunteer-vista-client",
+    "live": "https://assignment-11-7da79.web.app"
   }
 ]

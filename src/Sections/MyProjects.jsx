@@ -1,11 +1,9 @@
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
 import { useEffect, useState } from "react";
 import NavButton from "../Components/NavButton";
-
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Pagination } from 'swiper/modules'
 export default function MyProjects() {
   const [projects, setProjects] = useState([]);
 
@@ -16,10 +14,10 @@ export default function MyProjects() {
       .catch((err) => console.error("Error fetching projects:", err));
   }, []);
 
-  const ImageCard = "grid grid-cols-2 gap-1 w-1/3";
+  const ImageCard = "grid grid-cols-2 gap-1 w-1/3 md:ml-9 lg:ml-12";
   const heroSlider = "flex flex-col lg:flex-row items-center gap-9";
   const details =
-    "text-white text-center px-3 md:px-6 lg:px-9 md:text-left w-2/3 space-y-3";
+    "text-white text-center md:px-6 lg:px-9 md:text-left w-2/3 space-y-3";
   return (
     <div>
       <div className="my-6 space-y-6" data-aos="fade-up"
@@ -28,12 +26,12 @@ export default function MyProjects() {
          My Projects
         </h2>
         <p className="text-center text-white pb-6">
-          There`s my some projects that I`ve made. If you`ve time, you can check
-          out.
+          There`s my some projects that I`ve made. If you`ve time, please slide and review my projects.
         </p>
       </div>
 
-      <Swiper className="my-6">
+      <Swiper pagination={true}
+        modules={[Pagination]} className="my-6 md:bg-[#0d0d0d] pt-3 md:pt-9 lg:pt-16 md:rounded-xl" >
         {projects.map((project) => (
           <SwiperSlide key={project.id}>
             <div className={heroSlider}>
@@ -98,12 +96,12 @@ export default function MyProjects() {
                   ))}
                 </ul>
                 <div className="flex gap-6 py-3">
-                  <button className="px-6 py-2 bg-gradient-to-br from-orange-400 to-pink-500 text-white text-xl font-bold rounded-xl">
+                  <button className="mx-auto md:mx-0 px-6 py-2 bg-gradient-to-br from-orange-400 to-pink-500 text-white text-xl font-bold rounded-xl">
                     <a href={project.github} target="_blank">
                       Code
                     </a>
                   </button>
-                  <button className="px-6 py-2 bg-transparent border hover:bg-gradient-to-br hover:from-orange-400 hover:to-pink-500 text-white text-lg font-bold rounded-xl">
+                  <button className="mx-auto md:mx-0 px-6 py-2 bg-transparent border hover:bg-gradient-to-br hover:from-orange-400 hover:to-pink-500 text-white text-lg font-bold rounded-xl">
                     <a href={project.live} target="_blank">
                       Live
                     </a>
