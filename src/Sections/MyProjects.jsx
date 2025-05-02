@@ -3,12 +3,14 @@ import { useEffect, useState } from "react";
 import NavButton from "../Components/NavButton";
 import 'swiper/css';
 import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules'
 export default function MyProjects() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch("/public/projects.json") // Make sure this path matches the public folder
+    fetch("/projects.json") // Make sure this path matches the public folder
       .then((res) => res.json())
       .then((data) => setProjects(data))
       .catch((err) => console.error("Error fetching projects:", err));
