@@ -30,7 +30,9 @@ const Banner = () => {
                         <a href="https://drive.google.com/file/d/11zktNY6DoTo7Y-7kba0HFs13A1QmJ1zx/view" target="_blank">Resume</a>
                     </button>
                     <button className="px-6 py-3 bg-transparent border hover:bg-gradient-to-br from-orange-400 to-pink-500 text-white text-xl font-bold rounded-xl">
-                        <a href="mailto:info.sangram2003@gmail.com" target="_blank">Contact</a>
+                        <a href="/public/resume.pdf" 
+                        download="sangram-resume.pdf"
+                        target="_blank">Download CV</a>
                     </button>
                 </div>
             </div>

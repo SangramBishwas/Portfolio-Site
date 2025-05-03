@@ -3,7 +3,7 @@ import CSS from "../assets/CSS3.png"
 import JS from "../assets/JS.png";
 import TS from "../assets/TS.png";
 import mongodb from "../assets/mongodb.svg";
-import tailwind from "../assets/TailwindCSS.png"
+import next from "../assets/nextjs-icon.png"
 import react from "../assets/react-logo.png"
 import redux from "../assets/redux.png"
 import node from "../assets/nodejs-logo.png"
@@ -11,11 +11,11 @@ import express from "../assets/express-logo.png"
 const Skills = () => {
     return (
         <div className="py-10 mx-5 md:mx-auto">
-            <h2 className="text-center text-white text-xl my-9 md:text-3xl font-bold" data-aos="fade-up" data-aos-duration="1000">My Tech Skill</h2>
+            <h2 className="text-center text-white text-xl my-9 md:text-3xl font-bold" data-aos="fade-up">My Tech Skill</h2>
             <h3 className="primary-color text-xl my-3 font-bold lg:text-3xl" data-aos="fade-up">
                 Language_
             </h3>
-            <div className="border border-gray-600 text-gray-400 flex justify-evenly h-auto md:h-[150px] place-items-center" data-aos="fade-up" data-aos-duration="1000">              
+            <div className="border border-gray-600 text-gray-400 flex justify-evenly h-auto md:h-[150px] place-items-center" data-aos="fade-up">              
                 <div className="flex flex-col items-center m-4 w-[40px] md:w-[100px]">
                     <img className="w-[40px] md:w-[100px]" src={html} alt="html" />
                     <p className="md:mt-2">HTML</p>
@@ -42,24 +42,24 @@ const Skills = () => {
             </h3>
             <div className="border border-gray-600 text-gray-400 flex justify-evenly h-auto md:h-[150px] place-items-center" data-aos="fade-up" data-aos-duration="1000">              
                 <div className="flex flex-col items-center m-4 w-[40px] md:w-[100px]">
-                    <img className="w-[40px] md:w-[100px]" src={tailwind} alt="tailwind" />
-                    <p className="md:mt-3">Tailwind</p>
-                </div>
-                <div className="flex flex-col items-center m-4 w-[40px] md:w-[100px]">
                     <img className="w-[50px] md:w-[100px]" src={react} alt="react" />
-                    <p className="md:mt-2">React</p>
+                    <p className="md:mt-2">React.js</p>
                 </div>
                 <div className="flex flex-col items-center m-4 w-[40px] md:w-[100px]">
                     <img className="w-[50px] md:w-[100px]" src={redux} alt="react" />
                     <p className="md:mt-2">Redux</p>
                 </div>
                 <div className="flex flex-col items-center m-4 w-[40px] md:w-[100px]">
+                    <img className="bg-white rounded-full w-[40px] md:w-[100px]" src={next} alt="tailwind" />
+                    <p className="md:mt-3">Next.js</p>
+                </div>
+                <div className="flex flex-col items-center m-4 w-[40px] md:w-[100px]">
                     <img className="w-[40px] md:w-[100px]" src={node} alt="JS" />
-                    <p className="md:mt-2">Node</p>
+                    <p className="md:mt-2">Node.js</p>
                 </div>
                 <div className="flex flex-col items-center m-4 w-[40px] md:w-[100px]">
                     <img className="w-[40px] md:w-[100px] rounded-xl" src={express} alt="express" />
-                    <p className="md:mt-2">Express</p>
+                    <p className="md:mt-2">Express.js</p>
                 </div>
             </div>
         </div>

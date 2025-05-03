@@ -8,20 +8,19 @@ const EducationAndExprience = () => {
     <div className="min-h-auto bg-black text-white px-6 py-10">
       <div
         className="grid grid-cols-1 md:grid-cols-2 gap-10"
-        data-aos="fade-up"
       >
         {/* Left: Education */}
         <div>
-          <div className=" mb-4">
+          <div className="mb-4" data-aos="fade-up">
             <h2 className="text-3xl font-bold ">Education</h2>
           </div>
-          <div className={cardStyle}>
+          <div className={cardStyle} data-aos="fade-up">
             <h3 className={titleStyle}>National University</h3>
             <p className={subtitleStyle}>2022 - Present</p>
             <p className={descriptionStyle}>Bachelor of Arts</p>
           </div>
 
-          <div className={cardStyle}>
+          <div className={cardStyle} data-aos="fade-up">
             <h3 className={titleStyle}>Satkhira Day and Night College</h3>
             <p className={subtitleStyle}>2019 - 2021</p>
             <p className={descriptionStyle}>Higher Secondary</p>
@@ -30,17 +29,17 @@ const EducationAndExprience = () => {
 
         {/* Right: Experience */}
         <div>
-          <div className="mb-4">
+          <div className="mb-4" data-aos="fade-up">
             <h2 className="text-3xl font-bold">Experience</h2>
           </div>
 
-          <div className={cardStyle}>
+          <div className={cardStyle} data-aos="fade-up">
             <h3 className={titleStyle}>Team Project</h3>
             <p className={subtitleStyle}>2025 - under progamming-hero</p>
             <p className={descriptionStyle}>Role - A Fullstack Developer</p>
           </div>
 
-          <div className={cardStyle}>
+          <div className={cardStyle} data-aos="fade-up">
             <h3 className={titleStyle}>Real World Project</h3>
             <p className={subtitleStyle}>2024 - under a senior developer</p>
             <p className={descriptionStyle}>Role - A Frontend Developer.</p>

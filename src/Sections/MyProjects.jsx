@@ -21,7 +21,7 @@ export default function MyProjects() {
   const details =
     "text-white text-center md:px-6 lg:px-9 md:text-left w-2/3 space-y-3";
   return (
-    <div>
+    <div className="py-9">
       <div className="my-6 space-y-6" data-aos="fade-up"
         data-aos-duration="1000">
         <h2 className="text-center text-white text-xl md:text-3xl font-bold">
@@ -33,7 +33,7 @@ export default function MyProjects() {
       </div>
 
       <Swiper pagination={true}
-        modules={[Pagination]} className="my-6 md:bg-[#0d0d0d] pt-3 md:pt-9 lg:pt-16 md:rounded-xl" >
+        modules={[Pagination]} className="my-6 md:bg-[#0d0d0d] pt-3 md:pt-9 lg:pt-16 md:rounded-xl" data-aos="fade-up" >
         {projects.map((project) => (
           <SwiperSlide key={project.id}>
             <div className={heroSlider}>
